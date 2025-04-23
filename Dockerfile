@@ -8,4 +8,4 @@ RUN dotnet publish -c Release -o /app
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 COPY --from=build /app .
-ENTRYPOINT ["dotnet", "YourBot.dll", "--urls=http://0.0.0.0:80"]
+ENTRYPOINT ["dotnet", "MyTelegramBot.dll", "--urls=http://0.0.0.0:80"]
