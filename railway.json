@@ -1,0 +1,4 @@
+{
+  "build": "dotnet build",
+  "start": "dotnet run"
+}
