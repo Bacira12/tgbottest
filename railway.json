@@ -1,4 +1,8 @@
 {
-  "build": "dotnet build",
-  "start": "dotnet run"
+  "build": {
+    "command": "dotnet build"
+  },
+  "start": {
+    "command": "dotnet run"
+  }
 }
